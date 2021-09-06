@@ -85,14 +85,14 @@
 ### ================= 5. USER PROFILE: REGISTRATION, LOGIN AND LOGOUT
 
 
-#### 5.1 Setting up media path
+#### 5.1 Sign up - Setting up media path
 
         modified:   config/settings.py
         modified:   config/urls.py
         modified:   readme.md
 
 
-#### 5.2 Adding some more static assets
+#### 5.2 Sign up - Adding some more static assets
 
         modified:   readme.md
         ...
@@ -102,7 +102,7 @@
         new file:   static/video/sonniebaduuk.mp4
 
 
-#### 5.3 Creating Profile model and register it to admin
+#### 5.3 Sign up - Creating Profile model and register it to admin
 
         modified:   core/admin.py
         new file:   core/migrations/0001_initial.py
@@ -110,7 +110,7 @@
         modified:   readme.md
 
 
-#### 5.4 User signup - Template, Views and Urls
+#### 5.4 Sign up - User signup - Template, Views and Urls
 
         modified:   core/urls.py
         modified:   core/views.py
@@ -118,22 +118,27 @@
         new file:   templates/book/signup.html
 
 
-#### 5.5 Authenticate new sign up user
+#### 5.5 Sign up - Authenticate new sign up user
 
         modified:   core/views.py
         modified:   readme.md
         modified:   templates/book/signup.html
 
 
-#### 5.6 Display messages for new sign up user
+#### 5.6 Sign up - Display messages for new sign up user
 
         modified:   readme.md
         modified:   templates/book/signup.html
 
 
-#### 5.7 Testing - sign up a new user
+#### 5.7 Sign up - Testing - sign up a new user
 
         new file:   core/migrations/0002_alter_profile_profileimg.py
         modified:   core/models.py
         modified:   core/views.py
         modified:   templates/book/signup.html
+
+
+#### 5.8 Modified readme file
+
+        modified:   readme.md
