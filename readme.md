@@ -90,3 +90,14 @@
         modified:   config/settings.py
         modified:   config/urls.py
         modified:   readme.md
+
+
+#### 5.2 Adding some more static assets
+
+        modified:   readme.md
+        ...
+        new file:   static/settings/js/worldHigh.js
+        new file:   static/settings/js/worldLow.js
+        new file:   static/settings/js/wow.min.js
+        new file:   static/video/sonniebaduuk.mp4
+
