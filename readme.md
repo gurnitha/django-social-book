@@ -129,3 +129,11 @@
 
         modified:   readme.md
         modified:   templates/book/signup.html
+
+
+#### 5.7 Testing - sign up a new user
+
+        new file:   core/migrations/0002_alter_profile_profileimg.py
+        modified:   core/models.py
+        modified:   core/views.py
+        modified:   templates/book/signup.html
