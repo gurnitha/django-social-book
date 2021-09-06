@@ -74,3 +74,9 @@
         new file:   static/assets/js/simplebar.js
         new file:   static/assets/js/tippy.all.min.js
         new file:   static/assets/js/uikit.js
+
+
+#### 4.2 Setting up static path
+
+        modified:   config/settings.py
+        modified:   readme.md
