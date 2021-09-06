@@ -44,7 +44,7 @@
         modified:   readme.md
 
 
-### ================= 3. VIEWS, TEMPLATE, URLS ===
+### ================= 3. VIEWS, TEMPLATE, URLS ===========
 
 
 #### 3.1 Create home page
@@ -61,3 +61,16 @@
 
         modified:   readme.md
         modified:   templates/book/index.html
+
+
+### ================= 4. SETTING UP STATIC AND MEDIA FILES
+
+
+#### 4.1 Adding static files
+        
+        modified:   readme.md
+        ...
+        new file:   static/assets/js/jquery-3.3.1.min.js
+        new file:   static/assets/js/simplebar.js
+        new file:   static/assets/js/tippy.all.min.js
+        new file:   static/assets/js/uikit.js
