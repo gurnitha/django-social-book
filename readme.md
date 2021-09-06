@@ -116,3 +116,11 @@
         modified:   core/views.py
         modified:   readme.md
         new file:   templates/book/signup.html
+
+
+#### 5.5 Authenticate new sign up user
+
+        modified:   core/views.py
+        modified:   readme.md
+        modified:   templates/book/signup.html
+
