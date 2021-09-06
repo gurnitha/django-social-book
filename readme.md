@@ -109,3 +109,10 @@
         modified:   core/models.py
         modified:   readme.md
 
+
+#### 5.4 User signup - Template, Views and Urls
+
+        modified:   core/urls.py
+        modified:   core/views.py
+        modified:   readme.md
+        new file:   templates/book/signup.html
