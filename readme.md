@@ -80,3 +80,13 @@
 
         modified:   config/settings.py
         modified:   readme.md
+
+
+### ================= 5. USER PROFILE: REGISTRATION, LOGIN AND LOGOUT
+
+
+#### 5.1 Setting up media path
+
+        modified:   config/settings.py
+        modified:   config/urls.py
+        modified:   readme.md
