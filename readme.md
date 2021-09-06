@@ -37,3 +37,21 @@
             └───migrations
                     __init__.py
 
+
+#### 2.2 Register the app to the project
+
+        modified:   config/settings.py
+        modified:   readme.md
+
+
+### ================= 3. VIEWS, TEMPLATE, URLS ===
+
+
+#### 3.1 Create home page
+
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   core/urls.py
+        modified:   core/views.py
+        modified:   readme.md
+        new file:   templates/book/index.html
