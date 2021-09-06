@@ -101,3 +101,11 @@
         new file:   static/settings/js/wow.min.js
         new file:   static/video/sonniebaduuk.mp4
 
+
+#### 5.3 Creating Profile model and register it to admin
+
+        modified:   core/admin.py
+        new file:   core/migrations/0001_initial.py
+        modified:   core/models.py
+        modified:   readme.md
+
