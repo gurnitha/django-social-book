@@ -55,3 +55,9 @@
         modified:   core/views.py
         modified:   readme.md
         new file:   templates/book/index.html
+
+
+#### 3.2 Adding template for the home page
+
+        modified:   readme.md
+        modified:   templates/book/index.html
