@@ -124,3 +124,8 @@
         modified:   readme.md
         modified:   templates/book/signup.html
 
+
+#### 5.6 Display messages for new sign up user
+
+        modified:   readme.md
+        modified:   templates/book/signup.html

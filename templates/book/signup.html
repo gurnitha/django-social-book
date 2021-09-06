@@ -40,6 +40,14 @@
                     	Sign up
                     </h1>
 
+                    <!-- Alert messages -->
+                    <div>
+                    	<style type="text/css">h5{color:red}</style>
+                    	{% for message in messages %}
+                    	<h5>{{message}}</h5>
+                    	{% endfor %}
+                    </div>
+
                     <form action="" method="post">
                     	{% csrf_token %}
 
