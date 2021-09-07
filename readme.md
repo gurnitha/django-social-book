@@ -153,3 +153,10 @@
         modified:   core/views.py
         modified:   readme.md
         new file:   templates/book/signin.html
+
+
+#### 5.9.2 Sign in - Linking Sign up and Sign in pages
+
+        modified:   readme.md
+        modified:   templates/book/signin.html
+        modified:   templates/book/signup.html
