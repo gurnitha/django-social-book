@@ -189,3 +189,7 @@
         modified:   readme.md
 
 
+#### 5.11.2 Restriction - Making user sign in first before sign out
+
+        modified:   core/views.py
+        modified:   readme.md
