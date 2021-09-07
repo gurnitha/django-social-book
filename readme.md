@@ -160,3 +160,10 @@
         modified:   readme.md
         modified:   templates/book/signin.html
         modified:   templates/book/signup.html
+
+
+#### 5.9.3 Sign in - Sign in the user
+
+        modified:   core/views.py
+        modified:   readme.md
+        modified:   templates/book/signin.html

@@ -65,5 +65,29 @@ def signup(request):
 
 
 def signin(request):
-	return render(request, 'book/signin.html')
+
+	# If sign in form was submitted
+	if request.method == 'POST':
+		# Check username and password
+		username = request.POST['username'] 
+		password = request.POST['password']
+
+		# Authenticate username and password
+		user = auth.authenticate(username=username, password=password)
+
+		# If user exits in the db
+		if user is not None: 
+			# Let user login
+			auth.login(request, user)
+			# After user logged in, redirect user to the homepage
+			return redirect('/') 
+
+		# If user not exists or credentials not valid
+		else:
+			# Send user a message and redirect him/her to sign in page
+			messages.info(request, 'In valid credentials!') 
+			return redirect('signin')
+	
+	else:
+		return render(request, 'book/signin.html')
 
