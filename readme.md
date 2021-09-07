@@ -142,3 +142,14 @@
 #### 5.8 Modified readme file
 
         modified:   readme.md
+
+
+### 5.9 Sign in
+
+
+#### 5.9.1 Sign in - Creating Sign in page (Templates, Views, Urls)
+
+        modified:   core/urls.py
+        modified:   core/views.py
+        modified:   readme.md
+        new file:   templates/book/signin.html

@@ -64,4 +64,6 @@ def signup(request):
 		return render(request, 'book/signup.html')
 
 
+def signin(request):
+	return render(request, 'book/signin.html')
 
