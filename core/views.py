@@ -91,3 +91,8 @@ def signin(request):
 	else:
 		return render(request, 'book/signin.html')
 
+
+def signout(request):
+	auth.logout(request)
+	return redirect('signin')
+

@@ -167,3 +167,14 @@
         modified:   core/views.py
         modified:   readme.md
         modified:   templates/book/signin.html
+
+
+### 5.10 Sign out
+
+
+#### 5.10.1 Sign out - Sign out the user
+
+        modified:   core/urls.py
+        modified:   core/views.py
+        modified:   readme.md
+        modified:   templates/book/index.html
