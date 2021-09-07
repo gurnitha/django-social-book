@@ -178,3 +178,14 @@
         modified:   core/views.py
         modified:   readme.md
         modified:   templates/book/index.html
+
+
+### 5.11 Restriction
+
+
+#### 5.11.1 Restriction - Restriction - User must login to access the home page
+
+        modified:   core/views.py
+        modified:   readme.md
+
+
